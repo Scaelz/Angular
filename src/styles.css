@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #afafa5;
+}
+
+.block-bg {
+  background-color: #f1f1ea;
+}
+
+.block-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

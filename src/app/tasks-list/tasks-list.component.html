@@ -1,0 +1,9 @@
+<h2>Current tasks</h2>
+<p><a routerLink="/create">create</a></p>
+
+<p><a (click)="sortByDeadline()">sort by deadline</a></p>
+<ul class="tasks">
+  <li *ngFor="let task of tasks">
+    <app-task-card [task]="task"></app-task-card>
+  </li>
+</ul>

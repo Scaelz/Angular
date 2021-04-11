@@ -1,0 +1,48 @@
+.edit-block {
+  border-radius: 25px;
+  padding: 45px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+#title,
+#description,
+#deadline {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 25px;
+  border-width: 1px;
+  padding: 5px 5px 5px 15px;
+  box-sizing: border-box;
+}
+
+#description {
+  resize: none;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.submit-button,
+.goback-button {
+  border-radius: 25px;
+  border-width: 1px;
+  width: 200px;
+  height: 35px;
+}
+
+.goback-button {
+  margin-right: 20px;
+}
+
+.input-block + .input-block {
+  margin-top: 30px;
+}
+
+.invalid{
+    color: rgb(167, 17, 17);
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": 4,
+      "title": "Clean up the room",
+      "description": "Nice job for you from the future!",
+      "deadline": "2021-05-10",
+      "create_date": "2021-04-11T10:17:53.518Z",
+      "isDone": true
+    },
+    {
+      "id": 5,
+      "title": "Wash the car",
+      "description": "",
+      "deadline": "2021-04-21",
+      "create_date": "2021-04-11T11:08:57.642Z",
+      "isDone": false
+    },
+    {
+      "id": 6,
+      "title": "Test Task",
+      "description": "Some test task description.",
+      "deadline": "2021-04-09",
+      "create_date": "2021-04-11T11:30:12.018Z",
+      "isDone": false
+    },
+    {
+      "id": 7,
+      "title": "Repair PC",
+      "description": "ASAP",
+      "deadline": "2021-04-18",
+      "create_date": "2021-04-11T21:21:21.936Z",
+      "isDone": false
+    }
+  ]
+}

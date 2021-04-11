@@ -1,0 +1,12 @@
+li + li {
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.tasks {
+  margin: 0;
+  padding: 0;
+}

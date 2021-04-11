@@ -1,0 +1,29 @@
+<div
+  *ngIf="task"
+  class="task-card"
+  [class.expired]="expired"
+  [class.done]="done"
+>
+  <h2 class="task-title">
+    {{ task.title }}
+  </h2>
+  <p class="task-creation-details">
+    {{ task.create_date | date }}
+  </p>
+  <a class="control-link" routerLink="/edit/{{ task.id }}">edit</a>
+  <a class="control-link" routerLink="" (click)="delete()">delete</a>
+  <div class="task-status">
+    <label for="checkbox-status">Is Complete:</label>
+    <input
+      type="checkbox"
+      [checked]="done"
+      id="checkbox-status"
+      (change)="completeTask($event)"
+    />
+  </div>
+  <span class="task-description">{{ task.description }}</span>
+
+  <div *ngIf="task.deadline">
+    <p class="task-deadline">Deadline: {{ task.deadline | date }}</p>
+  </div>
+</div>
